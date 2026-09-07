@@ -232,7 +232,7 @@ function Curtain({ onOpen }: { onOpen: () => void }) {
   return (
     <section className="film-grain fixed inset-0 z-40 flex flex-col items-center justify-center gap-9 bg-ink px-7 text-center">
       <span className="text-[0.6rem] tracking-[0.45em] text-gold/70 uppercase">
-        A film in nine reels
+        A film in twenty reels
       </span>
       <h1 className="font-display text-5xl leading-[1.02] font-light text-foreground italic sm:text-7xl">
         For Tao Jingchu
@@ -289,7 +289,7 @@ function TitleCard() {
         data-visible={visible}
         style={{ animationDelay: "400ms" }}
       >
-        Nine reels of us, one song, and a first of March that quietly became the
+        Twenty reels of us, one song, and a first of March that quietly became the
         most important date I know.
       </p>
       <span
