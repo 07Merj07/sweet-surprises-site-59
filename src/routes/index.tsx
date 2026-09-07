@@ -13,6 +13,17 @@ import nightBlur from "@/assets/p-0e68050f-4d87-4900-807e-76b5d4c306a6.jpg.asset
 import flowers from "@/assets/p-7e0a1c15-e8f7-47d2-aff3-57edd97a7c5b.jpg.asset.json";
 import summerHat from "@/assets/p-19a047e3-bd65-4a49-9aeb-82fb96004524.jpg.asset.json";
 import prints from "@/assets/p-4a5deca6-e3c4-4c01-9a2a-107a788bf165.jpg.asset.json";
+import mallFriends from "@/assets/10ff65be-e744-4520-a146-415b98d5f4f0.jpg.asset.json";
+import storyStation from "@/assets/1fc33d22-389b-4c73-82fe-3d99e202a5f5.jpg.asset.json";
+import lakeKiss from "@/assets/12dfb09c-7e22-4339-a316-f61eeee38ac3.jpg.asset.json";
+import mirrorCheek from "@/assets/31cbe89f-543e-423c-a3fc-019aa984da65.jpg.asset.json";
+import nightRoses from "@/assets/101a2865-7221-4380-a1a6-95798be0960e.jpg.asset.json";
+import lakeHug from "@/assets/164e9d25-190a-4de9-ada8-f94de138ce87.jpg.asset.json";
+import windowLight from "@/assets/360a1881-99c4-4717-94d1-e05ed2993808.jpg.asset.json";
+import jerseys from "@/assets/429a1603-c0ee-4773-ae2b-af87450d5154.jpg.asset.json";
+import headsTogether from "@/assets/640b7279-0e85-44d9-812e-117a5491aa4b.jpg.asset.json";
+import mirrorKiss from "@/assets/0791fca9-533a-4f38-bb66-2275ee1756b0.jpg.asset.json";
+import shopSmile from "@/assets/5390c67f-5336-4dbd-ab31-719d326e3e17.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: LoveFilm,
