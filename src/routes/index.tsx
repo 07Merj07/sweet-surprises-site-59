@@ -13,6 +13,17 @@ import nightBlur from "@/assets/p-0e68050f-4d87-4900-807e-76b5d4c306a6.jpg.asset
 import flowers from "@/assets/p-7e0a1c15-e8f7-47d2-aff3-57edd97a7c5b.jpg.asset.json";
 import summerHat from "@/assets/p-19a047e3-bd65-4a49-9aeb-82fb96004524.jpg.asset.json";
 import prints from "@/assets/p-4a5deca6-e3c4-4c01-9a2a-107a788bf165.jpg.asset.json";
+import mallFriends from "@/assets/10ff65be-e744-4520-a146-415b98d5f4f0.jpg.asset.json";
+import storyStation from "@/assets/1fc33d22-389b-4c73-82fe-3d99e202a5f5.jpg.asset.json";
+import lakeKiss from "@/assets/12dfb09c-7e22-4339-a316-f61eeee38ac3.jpg.asset.json";
+import mirrorCheek from "@/assets/31cbe89f-543e-423c-a3fc-019aa984da65.jpg.asset.json";
+import nightRoses from "@/assets/101a2865-7221-4380-a1a6-95798be0960e.jpg.asset.json";
+import lakeHug from "@/assets/164e9d25-190a-4de9-ada8-f94de138ce87.jpg.asset.json";
+import windowLight from "@/assets/360a1881-99c4-4717-94d1-e05ed2993808.jpg.asset.json";
+import jerseys from "@/assets/429a1603-c0ee-4773-ae2b-af87450d5154.jpg.asset.json";
+import headsTogether from "@/assets/640b7279-0e85-44d9-812e-117a5491aa4b.jpg.asset.json";
+import mirrorKiss from "@/assets/0791fca9-533a-4f38-bb66-2275ee1756b0.jpg.asset.json";
+import shopSmile from "@/assets/5390c67f-5336-4dbd-ab31-719d326e3e17.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: LoveFilm,
@@ -92,6 +103,94 @@ const scenes = [
     body: "Coins, cables, an ordinary desk, and then us, printed on paper. Proof that this was not a dream I made up. It happened. It is still happening.",
     align: "right" as const,
   },
+  {
+    image: windowLight.url,
+    alt: "Tao Jingchu and me cheek to cheek in front of a bright window",
+    slate: "Reel 10 — Morning Light",
+    title: "Your face is the first good thing about every day.",
+    body: "Light behind us, nothing planned, your smile half hidden in my shoulder. I would trade a hundred beautiful places for this exact five minutes.",
+    align: "left" as const,
+  },
+  {
+    image: mirrorKiss.url,
+    alt: "Tao Jingchu and me kissing in a mirror before a trip",
+    slate: "Reel 11 — Before The Train",
+    title: "Every goodbye kiss is also a promise.",
+    body: "Suitcase by your feet, hat in your hand, and still you stopped for this. Distance never scared me, because you always come back to me.",
+    align: "right" as const,
+  },
+  {
+    image: mirrorCheek.url,
+    alt: "Tao Jingchu closing her eyes as I kiss her in the mirror",
+    slate: "Reel 12 — One Second Later",
+    title: "You close your eyes and I forget the rest of the world.",
+    body: "The same mirror, one second later. I keep both frames because I never want to choose between two versions of the same happiness.",
+    align: "left" as const,
+  },
+  {
+    image: lakeHug.url,
+    alt: "Tao Jingchu and me hugging in the middle of a lake",
+    slate: "Reel 13 — Cold Water, Warm Hands",
+    title: "You screamed, I held you, and the lake laughed at us.",
+    body: "Freezing water up to our waists and you refusing to let go of my arms. I have never felt more alive than in that ridiculous, perfect afternoon.",
+    align: "right" as const,
+  },
+  {
+    image: lakeKiss.url,
+    alt: "Tao Jingchu and me kissing in a lake while our friends cheer behind us",
+    slate: "Reel 14 — Witnesses",
+    title: "Our friends made hearts with their hands while I kissed you.",
+    body: "You cannot see it in the photo, but everyone was shouting. Let them. I wanted the whole lake to know who you belong to.",
+    align: "left" as const,
+  },
+  {
+    image: jerseys.url,
+    alt: "Tao Jingchu and me wearing matching football jerseys",
+    slate: "Reel 15 — My Team",
+    title: "You wore my colours and I nearly lost my mind.",
+    body: "You did not care about the match at all. You wore it because it was mine. That is the kind of love nobody teaches you to expect.",
+    align: "right" as const,
+  },
+  {
+    image: headsTogether.url,
+    alt: "Tao Jingchu resting her head next to mine indoors",
+    slate: "Reel 16 — Doing Nothing",
+    title: "My favourite hobby is simply being next to you.",
+    body: "No plans, no place to be, your head against mine and time going soft. People search their whole lives for a quiet like this.",
+    align: "left" as const,
+  },
+  {
+    image: shopSmile.url,
+    alt: "Tao Jingchu smiling with me in a brightly lit shop",
+    slate: "Reel 17 — That Smile",
+    title: "You smile like that and I would buy the entire store.",
+    body: "Neon lights, a silly aisle, and the best smile in the world pointed straight at the camera. Baobao, you make cheap places look expensive.",
+    align: "right" as const,
+  },
+  {
+    image: nightRoses.url,
+    alt: "Tao Jingchu kissing my cheek at night while holding roses",
+    slate: "Reel 18 — Black And White",
+    title: "Some nights deserve to look like old cinema.",
+    body: "Roses in your arms, your lips on my cheek, grain everywhere. If they ever make a film about us, this is the poster.",
+    align: "left" as const,
+  },
+  {
+    image: mallFriends.url,
+    alt: "Tao Jingchu with our group of friends",
+    slate: "Reel 19 — Our People",
+    title: "Even in a crowd, my eyes only do one thing.",
+    body: "Everyone laughing, everyone talking, and I am looking for you in the frame. I always find you first. I always will.",
+    align: "right" as const,
+  },
+  {
+    image: storyStation.url,
+    alt: "A saved story of us and our friends at the station",
+    slate: "Reel 20 — Saved",
+    title: "I keep everything. Even the screenshots.",
+    body: "A story that would have disappeared in a day, saved because you were in it. That is how it works with you: nothing about you is temporary to me.",
+    align: "left" as const,
+  },
 ];
 
 function LoveFilm() {
@@ -133,7 +232,7 @@ function Curtain({ onOpen }: { onOpen: () => void }) {
   return (
     <section className="film-grain fixed inset-0 z-40 flex flex-col items-center justify-center gap-9 bg-ink px-7 text-center">
       <span className="text-[0.6rem] tracking-[0.45em] text-gold/70 uppercase">
-        A film in nine reels
+        A film in twenty reels
       </span>
       <h1 className="font-display text-5xl leading-[1.02] font-light text-foreground italic sm:text-7xl">
         For Tao Jingchu
@@ -190,7 +289,7 @@ function TitleCard() {
         data-visible={visible}
         style={{ animationDelay: "400ms" }}
       >
-        Nine reels of us, one song, and a first of March that quietly became the
+        Twenty reels of us, one song, and a first of March that quietly became the
         most important date I know.
       </p>
       <span
