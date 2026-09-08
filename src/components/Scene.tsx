@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { useReveal } from "@/hooks/use-reveal";
 
 type SceneProps = {
@@ -9,6 +9,7 @@ type SceneProps = {
   body: string;
   align?: "left" | "center" | "right";
   focus?: string;
+  zoom?: number;
   children?: ReactNode;
 };
 
@@ -26,6 +27,7 @@ export function Scene({
   body,
   align = "center",
   focus = "center",
+  zoom,
   children,
 }: SceneProps) {
   const { ref, visible } = useReveal(0.3);
@@ -40,7 +42,17 @@ export function Scene({
         alt={alt}
         loading="lazy"
         className="ken-burns absolute inset-0 h-full w-full object-cover"
-        style={{ objectPosition: focus }}
+        style={
+          {
+            objectPosition: focus,
+            ...(zoom
+              ? {
+                  "--zoom-from": zoom,
+                  "--zoom-to": zoom * 1.1,
+                }
+              : {}),
+          } as CSSProperties
+        }
       />
       <div className="scene-veil absolute inset-0" />
 
