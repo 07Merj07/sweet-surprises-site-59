@@ -240,7 +240,8 @@ const scenes = [
     title: "I keep everything. Even the screenshots.",
     body: "A story that would have disappeared in a day, saved because you were in it. That is how it works with you: nothing about you is temporary to me.",
     align: "left" as const,
-    focus: "50% 30%",
+    focus: "72% 20%",
+    zoom: 1.7,
   },
   {
     image: prints.url,
