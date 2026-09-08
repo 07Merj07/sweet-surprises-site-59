@@ -230,7 +230,8 @@ const scenes = [
     title: "Even in a crowd, my eyes only do one thing.",
     body: "Everyone laughing, everyone talking, and I am looking for you in the frame. I always find you first. I always will.",
     align: "right" as const,
-    focus: "50% 45%",
+    focus: "82% 26%",
+    zoom: 1.5,
   },
   {
     image: storyStation.url,
