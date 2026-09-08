@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { useReveal } from "@/hooks/use-reveal";
 
 type SceneProps = {
@@ -51,7 +51,7 @@ export function Scene({
                   "--zoom-to": zoom * 1.1,
                 }
               : {}),
-          } as React.CSSProperties
+          } as CSSProperties
         }
       />
       <div className="scene-veil absolute inset-0" />
