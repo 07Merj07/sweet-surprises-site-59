@@ -42,7 +42,17 @@ export function Scene({
         alt={alt}
         loading="lazy"
         className="ken-burns absolute inset-0 h-full w-full object-cover"
-        style={{ objectPosition: focus }}
+        style={
+          {
+            objectPosition: focus,
+            ...(zoom
+              ? {
+                  "--zoom-from": zoom,
+                  "--zoom-to": zoom * 1.1,
+                }
+              : {}),
+          } as React.CSSProperties
+        }
       />
       <div className="scene-veil absolute inset-0" />
 
