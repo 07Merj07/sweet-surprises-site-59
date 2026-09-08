@@ -27,6 +27,7 @@ export function Scene({
   body,
   align = "center",
   focus = "center",
+  zoom,
   children,
 }: SceneProps) {
   const { ref, visible } = useReveal(0.3);
