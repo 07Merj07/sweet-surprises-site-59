@@ -230,8 +230,8 @@ const scenes = [
     title: "Even in a crowd, my eyes only do one thing.",
     body: "Everyone laughing, everyone talking, and I am looking for you in the frame. I always find you first. I always will.",
     align: "right" as const,
-    focus: "82% 26%",
-    zoom: 1.5,
+    focus: "60% 57%",
+    zoom: 1.6,
   },
   {
     image: storyStation.url,
@@ -240,8 +240,8 @@ const scenes = [
     title: "I keep everything. Even the screenshots.",
     body: "A story that would have disappeared in a day, saved because you were in it. That is how it works with you: nothing about you is temporary to me.",
     align: "left" as const,
-    focus: "72% 20%",
-    zoom: 1.7,
+    focus: "78% 11%",
+    zoom: 1.9,
   },
   {
     image: prints.url,
