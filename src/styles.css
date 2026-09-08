@@ -191,10 +191,10 @@
 
 @keyframes slow-zoom {
   from {
-    transform: scale(1.02);
+    transform: scale(var(--zoom-from, 1.02));
   }
   to {
-    transform: scale(1.16);
+    transform: scale(var(--zoom-to, 1.16));
   }
 }
 

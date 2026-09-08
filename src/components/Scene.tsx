@@ -9,6 +9,7 @@ type SceneProps = {
   body: string;
   align?: "left" | "center" | "right";
   focus?: string;
+  zoom?: number;
   children?: ReactNode;
 };
 
