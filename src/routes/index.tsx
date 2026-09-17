@@ -218,7 +218,7 @@ const scenes = [
     image: shopSmile.url,
     alt: "Tao Jingchu smiling with me in a brightly lit shop",
     slate: "Reel 21 — That Smile",
-    title: "You smile like that and I would buy the entire store.",
+    title: "That Smile in the Neon Light",
     body: "Neon lights, a silly aisle, and the best smile in the world pointed straight at the camera. Baobao, you make cheap places look expensive.",
     align: "right" as const,
     focus: "50% 45%",
