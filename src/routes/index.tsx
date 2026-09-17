@@ -93,7 +93,7 @@ const scenes = [
     alt: "Tao Jingchu in a straw hat on a summer street",
     slate: "Reel 07 — Golden Hour",
     title: "Summer looks like you, so summer will always be my favourite.",
-    body: "You laughing under a hat that is far too big for you. If I could keep one hour of my life on a loop, I think I would choose that one. Maybe it just looks like a regular photo to you, but to me, it's absolutely priceless. I love you, baobao.",
+    body: "Maybe it just looks like a regular photo to you, but to me, it's absolutely priceless. I love you, baobao.",
     align: "left" as const,
     focus: "50% 35%",
   },
