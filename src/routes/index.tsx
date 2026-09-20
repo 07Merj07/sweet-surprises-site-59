@@ -408,6 +408,20 @@ function LetterScene() {
           </p>
         </div>
         <p
+          className="reveal mt-10 font-display text-3xl leading-relaxed font-light text-gold/90 italic sm:text-4xl"
+          data-visible={visible}
+          style={{ animationDelay: "420ms" }}
+        >
+          千里共婵娟
+        </p>
+        <p
+          className="reveal mt-3 max-w-md text-[0.9rem] font-light text-foreground/60 italic"
+          data-visible={visible}
+          style={{ animationDelay: "460ms" }}
+        >
+          Even a thousand miles apart, we still share the same moon.
+        </p>
+        <p
           className="reveal mt-12 font-display text-2xl text-gold italic"
           data-visible={visible}
           style={{ animationDelay: "520ms" }}
