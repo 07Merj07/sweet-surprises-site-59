@@ -84,7 +84,7 @@ const scenes = [
     alt: "Tao Jingchu and me on a boat by the sea",
     slate: "Reel 06 — Sea Level",
     title: "With you even the water slows down.",
-    body: "Salt in the air, your shoulder against mine, that face you make when you know I am about to take a photo. This is my definition of peace.",
+    body: "Salt in the air, your shoulder against mine, that face you make when you know I am about to take a photo. This is my definition of peace and chaos. definetly a good pic for our music band huh ?",
     align: "right" as const,
     focus: "50% 38%",
   },
@@ -298,6 +298,9 @@ function Curtain({ onOpen }: { onOpen: () => void }) {
       <h1 className="font-display text-5xl leading-[1.02] font-light text-foreground italic sm:text-7xl">
         For Tao Jingchu
       </h1>
+      <p className="mt-1 text-[0.75rem] tracking-[0.28em] text-foreground/50 uppercase">
+        made by her baobao
+      </p>
       <p className="max-w-sm text-[0.9rem] leading-relaxed font-light text-foreground/60">
         Put the sound on, Baobao. This one was made only for you.
       </p>
